@@ -90,6 +90,7 @@ module.exports = {
       }),
       colors: {
         black: "#000",
+        yellow: "#fde047",
        
         accent: {
          50: "#EBEDFF",
