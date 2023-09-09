@@ -108,7 +108,7 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         custom: ["Poppins", "sans"],
-
+        'Luckiestguy': ['Luckiestguy', 'sans-serif']
       },
     },
   },

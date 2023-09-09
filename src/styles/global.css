@@ -10,7 +10,7 @@
 /* Register your custom font family and tell the browser where to find it. */
 @font-face {
   font-family: 'Jetbrains';
-  src: url('/astrosaas/public/fonts/JetBrainsMono-Bold.ttf') format('ttf');
+  src: url('/public/fonts/JetBrainsMono-Bold.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Poppins Bold';
-  src: url('/astrosaas/public/fonts/Poppins-Bold.ttf') format('ttf');
+  src: url('/public/fonts/Poppins-Bold.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -26,12 +26,19 @@
 
 @font-face {
   font-family: 'Poppins Regular';
-  src: url('/astrosaas/public/fonts/Poppins-Regular.ttf') format('ttf');
+  src: url('/public/fonts/Poppins-Regular.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Luckiestguy';
+  src: url('/public/fonts/LuckiestGuy-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /*
 
 
