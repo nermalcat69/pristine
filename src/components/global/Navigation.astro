@@ -1,26 +1,35 @@
 <section>
   <style>
-    .header-bg {
-      background-color: #171717;
-    }
   </style>
-  <div class="w-full ">
-    <div class="relative flex rounded-3xl flex-col max-w-7xl py-5 mx-auto header-bg md:items-center md:justify-between md:flex-row md:px-6">
-      <div class="flex flex-row items-center justify-between lg:justify-start">
+  <div class="w-full">
+    <div class="relative flex rounded-3xl flex-row max-w-7xl mx-auto px-4 py-5 header-bg">
+      <div class="flex items-center justify-between lg:justify-start">
         <a href="/" class="lg:pr-8 text-white inline-flex items-center gap-3">
-          <span class="font-bold text-2xl	font-display">Pristine</span>
+          <span class="font-bold text-2xl font-display">Pristine</span>
         </a>
       </div>
-      <nav class="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
-        <div class="inline-flex items-center gap-2 list-none lg:ml-auto">
+      <nav class="flex items-center flex-grow justify-end md:flex md:ml-auto">
+        <div class="md:hidden flex items-center">
           <a
             href="/signup"
-            class="block px-8 py-2 mt-2 text-sm font-medium text-gray-900 rounded-3xl bg-gray-200 md:mt-0 hover:text-accent-400 focus:outline-none focus:shadow-outline">
+            class="block mx-1 px-4 py-2 text-sm font-medium text-gray-900 rounded-3xl bg-gray-200 md:mt-0 hover:text-accent-400 focus:outline-none focus:shadow-outline">
             Sign in
           </a>
           <a
             href="/login"
-            class="inline-flex items-center justify-center px-8 py-2 text-sm font-medium text-gray-900 bg-gray-200 rounded-3xl	 group focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-slate-50 active:bg-slate-200 active:text-accent-400 focus-visible:outline-black">
+            class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-900 bg-gray-200 rounded-3xl group focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-slate-50 active:bg-slate-200 active:text-accent-400 focus-visible:outline-black">
+            Sign up
+          </a>
+        </div>
+        <div class="hidden md:flex items-center">
+          <a
+            href="/signup"
+            class="block mx-1 px-6 py-2 text-sm font-medium text-gray-900 rounded-3xl bg-gray-200 md:mt-0 hover:text-accent-400 focus:outline-none focus:shadow-outline">
+            Sign in
+          </a>
+          <a
+            href="/login"
+            class="inline-flex items-center justify-center px-6 py-2 text-sm font-medium text-gray-900 bg-gray-200 rounded-3xl group focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-slate-50 active:bg-slate-200 active:text-accent-400 focus-visible:outline-black">
             Sign up
           </a>
         </div>
