@@ -7,7 +7,7 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
-/* Register your custom font family and tell the browser where to find it. */
+
 @font-face {
   font-family: 'Jetbrains';
   src: url('/public/fonts/JetBrainsMono-Bold.ttf') format('ttf');
@@ -46,116 +46,24 @@
   font-style: normal;
   font-display: swap;
 }
-/*
 
 
-1. We Love POPPINS
-Poppins
-font size 100
-bold
-
-2. This is an example paragraph This is an example paragraph This is an example paragraphThis is an example paragraphThis is an example paragraph
-Poppins
-font size 20
-medium
-
-3. What is poppins? The only font you need!
-poppins
-font size 30
-semi bold
-
-4.QUALIFIED DEVS TO BRING YOUR VISION TO LIFE
-poppins
-font size 55
-bold
-
-5. Testimonials
-poppins
-font size 80
-bold
-
-6. Built on a foundation of fast, production-grade tooling
-poppins
-font size 58
-extrabold
-
-7. bUILD COOL WEBSITES WITH POPPINS
-50
-bold
-
-8. Poppins
-100
-semibold
-
-9. Allover
-100
-semibold
-
-10. Serverless Data Platform
-130
-bold
-
-11. Redis
-30
-semi-bold
-
-12. Serverless database with Redis api
-17
-medium
-
-13. Create Database
-15
-semibold
-
-14. Always know what you’ll pay, transparent pricing for everyone.
-40
-extrabold
-
-15.$0
-45
-regular
-
-16.Greedy
-24
-regular
-
-17. Amazing for those attached to money
-15 
-medium
-
-18.Get started
-24 
-regular
-
-19. Connect 1 website
-15 
-regular
-
-20. Poppins
-40
-medium
-
-21. The everything font,  the font 
-for everything you need
-40 regular
-
-22. © 2023 Poppins LLC, based in Delaware
-20
-regular
-
-23.Contact Us
-20
-regular
-
-24.Status
-20
-medium
-
-25. *This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display *This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display *This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display *This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display This is the footer and here is some gibberish text  for the display *This is the display
-20
-light
+.poppins-hover {
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in-out;
+}
 
 
+.all-over-hover {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-trigger:hover .poppins-hover {
+  transform: translateY(200%); 
+}
 
 
-*/
+.hover-trigger:hover .all-over-hover {
+  transform: translateY(-200%);
+}
