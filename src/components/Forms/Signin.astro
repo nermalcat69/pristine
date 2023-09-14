@@ -9,6 +9,10 @@
       font-family: 'Poppins', sans-serif;
       font-weight: 400;
     }
+    .poppinsMedium{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+    }
   </style>
   <div
     class="flex relative justify-center lg:px-0 max-h-full md:px-12 overflow-hidden">
@@ -69,17 +73,17 @@
           <input name="_redirect" type="hidden" value="#" /><div
             class="space-y-6">
             <div>
-              <label class="sr-only poppinsRegular" name="name"
+              <label class="sr-only poppinsRegular" 
                 >User name or email Adress</label
               >
               <input
-                class="w-full focus:outline-none border py-3 appearance-none border-gray-900 bg-zinc-900 block focus:bg-white focus:border-accent-500 focus:ring-accent-500 placeholder-slate-400 px-3 rounded-xl sm:text-sm text-accent-500"
+                class="w-full focus:outline-none border py-3 appearance-none border-gray-900 bg-zinc-900 block focus:bg-zinc-800 focus:border-accent-500 focus:ring-accent-500 placeholder-slate-400 px-3 rounded-xl sm:text-sm text-accent-500"
                 placeholder="you@example.com"
               />
             </div><div class="col-span-full">
-              <label class="sr-only poppinsRegular" name="company">Password</label>
+              <label class="sr-only poppinsRegular">Password</label>
               <input
-                class="w-full focus:outline-none border py-3 appearance-none border-gray-900 bg-zinc-900 block focus:bg-white focus:border-accent-500 focus:ring-accent-500 placeholder-slate-400 px-3 rounded-xl sm:text-sm text-accent-500"
+                class="w-full focus:outline-none border py-3 appearance-none border-gray-900 bg-zinc-900 block focus:bg-zinc-800 focus:border-accent-500 focus:ring-accent-500 placeholder-slate-400 px-3 rounded-xl sm:text-sm text-accent-500"
                 placeholder="******"
                 type="password"
               />
@@ -98,17 +102,23 @@
               </div>
             </div><div class="col-span-full">
               <button
-                class="items-center poppinsBold justify-center rounded-xl focus-visible:outline-black focus:outline-none inline-flex bg-white border-2 border-black duration-200 focus-visible:ring-black hover:bg-transparent hover:border-black hover:text-black px-6 py-3 text-center text-black w-full"
+                class="items-center poppinsMedium justify-center rounded-xl focus-visible:outline-black focus:outline-none inline-flex bg-white border-2 border-black duration-200 focus-visible:ring-black hover:bg-transparent hover:border-black hover:text-black px-6 py-3 text-center text-black w-full"
                 type="submit">Sign-in</button
               >
             </div><div class="flex justify-center items-center poppinsRegular">
-              <p class="text-sm leading-tight text-white">
+              <p class="text-sm leading-tight text-white mb-1">
                 Not a member?<a
-                  class="text-accent-500 hover:text-accent-400 ml-1 underline"
+                  class="text-accent-500 hover:text-accent-400 ml-1 mb-1"
                   href="/signup">Sign-up here</a
                 >
               </p>
             </div>
+          </div>
+        </p><p class="font-medium text-xs leading-tight text-slate-500">
+          This site is protected by reCAPTCHA and the Google Privacy
+          Policy and Terms of Service apply.
+        </p>
+      </div>
           </div>
         </form>
       </div>
