@@ -1,4 +1,4 @@
 # PRISTINE THEME
 
 
-![Your Contributions](https://github.com/nermalcat69/contributions)
+![nermalcat69](https://github.com/users/nermalcat68/contributions)
