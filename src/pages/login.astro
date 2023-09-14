@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Login from "../components/Forms/Login.astro";
+import Signin from "../components/Forms/Signin.astro";
 import { AstroSeo } from "@astrolib/seo";
 ---
 
@@ -8,7 +8,7 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Log in"
+  title="Sign Up"
   description="Your site description goes here"
   canonical="https://www.michaelandreuzza.com"
   openGraph={{
@@ -42,5 +42,5 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <Login />
+  <Signin />
 </BaseLayout>
